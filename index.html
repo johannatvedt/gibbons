@@ -2,16 +2,25 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Average|Montserrat:400,400i,500,700,900" rel="stylesheet">
     <title>Gibbons</title>
   </head>
   <body>
     <header>
-      <div class="hamburger"></div>
-      <div class="logo">gibbons</div>
-      <div class="header-icons">
-        <a class="profile-icon" href="#"></a>
-        <button class="cart-icon"></button>
+      <div class="container flex-between">
+        <div class="hamburger"></div>
+        <div class="logo"><a href="#">gibbons</a></div>
+        <div class="header-icons">
+          <a class="profile-icon" href="#">
+            <img src="images/profile.svg" alt="profile icon">
+          </a>
+          <button class="cart-icon">
+            <img src="images/basket.svg" alt="cart icon">
+          </button>
+        </div>
       </div>
     </header>
     <section class="image-gallery">
@@ -26,7 +35,7 @@
       <div class="story">
         <img src="images/clothes-rack-mobile.jpg" alt="shirts and pants on a rack">
         <div class="hero-copy">
-          <h1>Find Your Fit, In Real Life.</h1>
+          <h2>Find Your Fit, In Real Life.</h2>
           <p>Style is opinion, fit is fact. Find yours at one of our Guideshop locations. One-on-one service. Complimentary style advice. Plus the perfect fit, delivered right to your door</p>
           <a class="button-black" href="#">visit us</a>
         </div>
@@ -34,10 +43,21 @@
       <div class="story">
         <img src="images/clothes-stack-mobile.jpg" alt="pants in a stack">
         <div class="hero-copy">
-          <h1>How We Got Started</h1>
+          <h2>How We Got Started</h2>
           <p>We started Bonobos after we couldn’t find an acceptable fit for ourselves. Turns out, other guys felt the same, and we went from selling 400 pants inside a Union Sq. apartment to the largest clothing brand ever built on the web.</p>
           <a class="button-black" href="#">read how it all began</a>
         </div>
+      </div>
+
+      <div class="story">
+        <h3>Free Shipping, Returns & Exchanges</h3>
+        <p>Free shipping both ways. Live near one of our Guideshop locations? We also accept returns and exchanges in-store at no extra cost.</p>
+        <a href="#">See Details</a>
+      </div>
+      <div class="story">
+        <h3>Service the Ninja Way</h3>
+        <p>If you have comments, questions, or issues, our customer service Ninjas are always on call. Need help? Call a Ninja.</p>
+        <a href="#">Contact Us</a>
       </div>
 
     </section>
