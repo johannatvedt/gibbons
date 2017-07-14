@@ -12,6 +12,7 @@ body {
   background-color: #fff;
   color: #232323;
   font-family: 'Average', serif;
+  line-height: 1.375;
 }
 
 a {
@@ -21,6 +22,13 @@ a {
 
 h1, h2, h3, h4, a {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height:
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: 3px;
 }
 
 .logo a {
@@ -31,12 +39,14 @@ h1, h2, h3, h4, a {
 }
 
 .container {
+  padding: 0 16px;
   width: 100vw;
 }
 
 .flex-between {
   align-items: center;
   display: flex;
+  height: 100%;
   justify-content: space-between;
 }
 
@@ -44,11 +54,60 @@ header {
   background-color: #fff;
   box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.15);
   height: 60px;
+  left: 0;
   position: fixed;
+  top: 0;
   width: 100vw;
+  z-index: 10000;
 }
 
 .header-icons img {
   height: 23px;
   width: auto;
 }
+
+.hamburger {
+  background: linear-gradient(to bottom, #000 0%, #000 20%, transparent 20%, transparent 40%, #000 40%, #000 60%, transparent 60%, transparent 80%, #000 80%, #000 100%);
+  cursor: pointer;
+  height: 20px;
+  width: 30px;
+}
+
+.image-gallery {
+  color: #fff;
+  height: 525px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.pane {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  position: relative;
+}
+
+.pane > img {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.button-white-border {
+  border: 3px solid #fff;
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  width: 40%;
+}
+
+/*.v-center {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}*/
