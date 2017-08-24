@@ -20,6 +20,11 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin-bottom: 15px;
+}
+
+
 h1, h2, h3, h4, a {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
@@ -107,7 +112,7 @@ header {
 .button {
   display: inline-block;
   font-size: 0.875rem;
-  margin-top: 30px;
+  margin-top: 15px;
   padding: 15px 40px;
   text-transform: uppercase;
 }
@@ -137,8 +142,20 @@ header {
   text-align: center;
 }
 
-.story.pane {
+.success-copy {
+  padding: 30px 20px;
+  margin: 0 auto;
+  text-align: center;
+  width: 72%;
+}
 
+.success-copy:not(:first-child) {
+  border-top: 1px solid #e5e5e5;
+}
+
+.success-copy > a {
+  color: #00799c;
+  font-weight: 400;
 }
 
 /*.v-center {
